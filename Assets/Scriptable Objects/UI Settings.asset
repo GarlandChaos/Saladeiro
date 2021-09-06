@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfd8e9a38925664e965202172f5238a, type: 3}
+  m_Name: UI Settings
+  m_EditorClassIdentifier: 
+  screensPrefabs:
+  - {fileID: 728396347156239604, guid: 518035b8432acd6479c01c8212c37fbb, type: 3}
+  - {fileID: 728396347156239604, guid: ff1e4428263130c4ba72bcdfa26e4d55, type: 3}
+  - {fileID: 728396347156239604, guid: abd2dc711cf15e54691bef630d1fe904, type: 3}
+  - {fileID: 728396347156239604, guid: ad558899d96a8e4449aced8c08daa6b6, type: 3}
+  - {fileID: 728396347156239604, guid: 9859dd5fbac3d054b89de70a288be886, type: 3}
+  - {fileID: 728396347156239604, guid: 3fcd9478c2ef0ad468791176687eb3e3, type: 3}
+  - {fileID: 728396347156239604, guid: 4ba1ec195247de141b3aabf4e31e2d82, type: 3}
+  - {fileID: 728396347156239604, guid: d11d9633406a0a144bc3dc0a3697a9bf, type: 3}

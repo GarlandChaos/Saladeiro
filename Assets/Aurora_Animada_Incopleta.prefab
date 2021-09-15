@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7033937700092980699}
   - component: {fileID: 3845235281339919608}
+  - component: {fileID: 1489250116}
   m_Layer: 0
   m_Name: Aurora_Lp
   m_TagString: Untagged
@@ -109,7 +110,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4074307893466370570, guid: 2796de62a37d0dd4d8bdd3cbee060485, type: 3}
+  - {fileID: 2100000, guid: f9362a51b3701964f885064d412879b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -154,6 +155,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 3.4837167, z: 0.051071048}
     m_Extent: {x: 3.0706153, y: 3.5701654, z: 1.6759226}
   m_DirtyAABB: 0
+--- !u!65 &1489250116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227357704643009205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.22, y: 3.4569745, z: 6.9455156}
+  m_Center: {x: 8.190898e-15, y: -0.052673265, z: 3.3855693}
 --- !u!1 &2451376175197971591
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +178,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1467699023586596500}
   - component: {fileID: 8850791242997808110}
+  - component: {fileID: 5929198749297589933}
+  - component: {fileID: 5929198749297589931}
+  - component: {fileID: 5929198749297589932}
+  - component: {fileID: 5929198749297589934}
+  - component: {fileID: 7612545091236912247}
   m_Layer: 0
   m_Name: Aurora_Animada_Incopleta
   m_TagString: Untagged
@@ -180,7 +199,7 @@ Transform:
   m_GameObject: {fileID: 2451376175197971591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 7164473424991551859}
   - {fileID: 7033937700092980699}
@@ -197,7 +216,7 @@ Animator:
   m_GameObject: {fileID: 2451376175197971591}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2796de62a37d0dd4d8bdd3cbee060485, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cea2b16ed82bb41479fc14d5ec4adbf4, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -206,6 +225,79 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &5929198749297589933
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451376175197971591}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!114 &5929198749297589931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451376175197971591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485f3f70490a1944ca818f606f1cfc8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  yOffset: 0.6
+--- !u!114 &5929198749297589932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451376175197971591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be6eb3c441e1504ba07ad6b41b2ed44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerTag: ChangeCameraTrigger
+  triggerEvent: {fileID: 11400000, guid: 7d3f2fa977adc6642848fbbdc7f8955c, type: 2}
+--- !u!114 &5929198749297589934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451376175197971591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be6eb3c441e1504ba07ad6b41b2ed44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerTag: ChangeCameraTrigger2
+  triggerEvent: {fileID: 11400000, guid: 28ff99be58fe42a4dada6adccb43ed1a, type: 2}
+--- !u!114 &7612545091236912247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451376175197971591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7404894a084c65e41b2f2d033afa8417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 5929198749297589933}
 --- !u!1 &3409459413952414850
 GameObject:
   m_ObjectHideFlags: 0

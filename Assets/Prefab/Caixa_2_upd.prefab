@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5080096797218834493}
   - component: {fileID: 4313084636421632523}
   - component: {fileID: 7559202687620796146}
+  - component: {fileID: 7663823743589324401}
   m_Layer: 0
   m_Name: Caixa_2_upd
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7663823743589324401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8132226352289085998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.048761677, y: 0.05062034, z: 0.051090766}
+  m_Center: {x: 0.000010011718, y: -0.00007092206, z: 0.00038266735}

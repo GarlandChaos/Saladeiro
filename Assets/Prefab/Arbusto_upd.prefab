@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5446099759994115303}
   - component: {fileID: 3949490157924986577}
   - component: {fileID: 7346463034380833320}
-  m_Layer: 0
+  - component: {fileID: 4451116225515846569}
+  m_Layer: 8
   m_Name: Arbusto_upd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &4451116225515846569
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065525290362267380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.026537322
+  m_Center: {x: 0.0000002188608, y: -0.000000073574476, z: 0.017648581}

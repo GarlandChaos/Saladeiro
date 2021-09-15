@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 275785590429795850}
   - component: {fileID: 9117765283181919292}
   - component: {fileID: 3293334592185532613}
+  - component: {fileID: 4331965826557462081}
   m_Layer: 0
   m_Name: Madeira_Solta_upd
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4331965826557462081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857491755862307865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03253801, y: 0.030675493, z: 0.02886525}
+  m_Center: {x: -0.003749192, y: -0.0038812468, z: -0.0048288754}

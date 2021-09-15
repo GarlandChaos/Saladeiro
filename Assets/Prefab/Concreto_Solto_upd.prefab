@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2821462481276474544}
   - component: {fileID: 6520332181256842886}
   - component: {fileID: 666628375881142911}
+  - component: {fileID: 1831772060937080282}
   m_Layer: 0
   m_Name: Concreto_Solto_upd
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1831772060937080282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260023787123205795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09508119, y: 0.048701685, z: 0.010483321}
+  m_Center: {x: 3.3810028e-17, y: 0, z: -0.0047583375}

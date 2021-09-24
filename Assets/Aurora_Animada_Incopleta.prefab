@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7033937700092980699}
   - component: {fileID: 3845235281339919608}
-  - component: {fileID: 1489250116}
+  - component: {fileID: 8208564348591706385}
   m_Layer: 0
   m_Name: Aurora_Lp
   m_TagString: Untagged
@@ -155,8 +155,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 3.4837167, z: 0.051071048}
     m_Extent: {x: 3.0706153, y: 3.5701654, z: 1.6759226}
   m_DirtyAABB: 0
---- !u!65 &1489250116
-BoxCollider:
+--- !u!136 &8208564348591706385
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -165,9 +165,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.22, y: 3.4569745, z: 6.9455156}
-  m_Center: {x: 8.190898e-15, y: -0.052673265, z: 3.3855693}
+  m_Radius: 1.85
+  m_Height: 8.02
+  m_Direction: 2
+  m_Center: {x: 0.00000012760174, y: -0.052673005, z: 3.3855693}
 --- !u!1 &2451376175197971591
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,8 +238,8 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &5929198749297589931

@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 12be56c315044d04794a4ff4eb172e2b, type: 2}
 --- !u!1 &13059343
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 54.498, y: 0, z: 0}
 --- !u!4 &13481646 stripped
 Transform:
@@ -224,6 +224,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -309,6 +319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -393,6 +408,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -476,6 +501,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -573,6 +603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -663,6 +698,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -746,6 +786,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -831,6 +881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -914,6 +969,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -1049,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f411d7bd967d2c54d9355939ec2273da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1398659723}
   agent: {fileID: 91443791}
 --- !u!114 &91443793
 MonoBehaviour:
@@ -1143,7 +1203,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &94742126
 PrefabInstance:
@@ -1156,6 +1216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -1240,6 +1305,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -1331,6 +1406,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1421,6 +1506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1504,6 +1594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -1606,6 +1701,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -1755,12 +1860,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144807091}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0.6, y: 8.64, z: -7.03}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1252026984}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!4 &152395586 stripped
 Transform:
@@ -1785,6 +1890,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -1882,6 +1997,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1971,6 +2091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -2131,6 +2256,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2214,6 +2344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -2323,6 +2458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2406,6 +2546,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -2503,6 +2653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2593,6 +2748,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2676,6 +2841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -2772,6 +2942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -2874,6 +3049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -2983,6 +3163,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3079,6 +3269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3169,6 +3364,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3252,6 +3452,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Arbusto_upd (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5446099759994115303, guid: 2ae0bccfe505c78479c4f6fca724e704,
         type: 3}
@@ -3344,6 +3554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3428,6 +3643,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3511,6 +3736,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -3607,6 +3842,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -3709,6 +3954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -3879,7 +4129,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &391537426 stripped
 Transform:
@@ -3910,6 +4160,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -4019,6 +4279,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4103,6 +4373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4186,6 +4461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -4307,6 +4587,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Madeira_Solta_upd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 275785590429795850, guid: ec3a06632f08271468c5d46674b38e78,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4391,6 +4681,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4474,6 +4774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -4564,6 +4869,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -4661,6 +4976,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4744,6 +5064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -4829,6 +5154,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4912,6 +5247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -5009,6 +5349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5099,6 +5444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5183,6 +5533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5266,6 +5621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -5356,6 +5716,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -5453,6 +5818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5542,6 +5912,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -5633,6 +6013,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5716,6 +6101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -5819,6 +6209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5902,6 +6297,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -5987,6 +6392,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6070,6 +6485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -6155,6 +6575,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6238,6 +6663,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -6442,7 +6877,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 54.498, y: 0, z: 0}
 --- !u!4 &666351182 stripped
 Transform:
@@ -6461,6 +6896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -6546,6 +6986,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6629,6 +7079,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -6783,6 +7243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6873,6 +7338,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6957,6 +7427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7040,6 +7515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -7143,6 +7623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7226,6 +7711,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -7323,6 +7818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7413,6 +7913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7502,6 +8007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -7605,6 +8115,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7689,6 +8204,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7767,6 +8287,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1784504782}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &769849219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769849221}
+  - component: {fileID: 769849220}
+  m_Layer: 0
+  m_Name: Default Camera Position
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &769849220
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769849219}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &769849221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769849219}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1252026984}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!4 &770090900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
@@ -7802,6 +8396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -7887,6 +8486,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7970,6 +8579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -8073,6 +8687,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8169,6 +8793,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8252,6 +8886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -8348,6 +8987,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -8483,7 +9132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f411d7bd967d2c54d9355939ec2273da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1398659723}
   agent: {fileID: 846487219}
 --- !u!114 &846487221
 MonoBehaviour:
@@ -8577,7 +9226,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &848735105 stripped
 Transform:
@@ -8608,6 +9257,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -8699,6 +9358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8789,6 +9453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8872,6 +9541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -8963,6 +9637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9053,6 +9732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9136,6 +9820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -9221,6 +9910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9305,6 +9999,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9388,6 +10092,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -9484,6 +10198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9567,6 +10286,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -9690,7 +10414,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: fcff42da608f2474b83d6cca84baac43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: fcff42da608f2474b83d6cca84baac43,
         type: 3}
@@ -9758,6 +10482,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Madeira_Solta_upd (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 275785590429795850, guid: ec3a06632f08271468c5d46674b38e78,
         type: 3}
@@ -9843,6 +10577,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9926,6 +10665,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -10017,6 +10766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10100,6 +10854,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -10191,6 +10955,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10280,6 +11054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -10371,6 +11150,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10455,6 +11239,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbusto_upd
       objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5446099759994115303, guid: 2ae0bccfe505c78479c4f6fca724e704,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10533,6 +11327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -10617,6 +11416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -10720,6 +11524,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10803,6 +11617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -10888,6 +11707,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10971,6 +11795,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Arbusto_upd (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5446099759994115303, guid: 2ae0bccfe505c78479c4f6fca724e704,
         type: 3}
@@ -11069,6 +11903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11159,6 +11998,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11242,6 +12091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -11344,7 +12198,7 @@ Transform:
   m_Children:
   - {fileID: 1830137134}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1092496074 stripped
 Transform:
@@ -11363,6 +12217,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -11460,6 +12324,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11550,6 +12424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11633,6 +12512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -11718,6 +12602,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11801,6 +12690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -11898,6 +12792,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Caixa_2_upd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5080096797218834493, guid: 28c8245e71cc9ee458324ed4087d41a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11987,6 +12891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -12084,6 +12993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12167,6 +13081,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -12257,6 +13181,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -12580,7 +13514,7 @@ Transform:
   - {fileID: 1179312575}
   - {fileID: 364004030}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1233272874
 PrefabInstance:
@@ -12593,6 +13527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -12677,6 +13616,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -12768,6 +13717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12840,6 +13794,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46ffd44f6b87ce14eb126e9ce8c23405, type: 3}
+--- !u!1 &1252026982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252026984}
+  - component: {fileID: 1252026983}
+  m_Layer: 0
+  m_Name: CameraController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1252026983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252026982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183cb3912fe86124ca269e29452dc4a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetToFollow: {fileID: 1398659723}
+  mainCamera: {fileID: 144807094}
+  defaultCameraPosition: {fileID: 769849220}
+  followTime: 0.1
+--- !u!4 &1252026984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252026982}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0.6, y: 8.64, z: -7.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 144807094}
+  - {fileID: 769849221}
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1001 &1257944760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12851,6 +13854,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -12954,6 +13967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13044,6 +14062,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13127,6 +14150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -13212,6 +14240,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13295,6 +14333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -13385,6 +14428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -13488,6 +14536,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Caixa_2_upd
       objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5080096797218834493, guid: 28c8245e71cc9ee458324ed4087d41a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13572,6 +14630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13655,6 +14718,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -13745,6 +14818,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -13899,7 +14982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 33.753002, y: 0, z: 0}
 --- !u!4 &1355180512 stripped
 Transform:
@@ -13918,6 +15001,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -14021,6 +15114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14093,6 +15191,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46ffd44f6b87ce14eb126e9ce8c23405, type: 3}
+--- !u!4 &1398659723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6167902293549889091, guid: b796cf044d7ca1d47a4644fee8cee130,
+    type: 3}
+  m_PrefabInstance: {fileID: 180431905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1403186613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14104,6 +15208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -14188,6 +15297,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Caixa_1_upd (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334330486577169180, guid: fd817a2754937534caa9a3182d79ae4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334330486577169180, guid: fd817a2754937534caa9a3182d79ae4e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2656885576547889423, guid: fd817a2754937534caa9a3182d79ae4e,
         type: 3}
@@ -14291,6 +15410,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14374,6 +15498,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -14465,6 +15599,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14555,6 +15699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14638,6 +15787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -14723,6 +15877,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14806,6 +15970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -14891,6 +16060,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14974,6 +16153,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -15065,6 +16254,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15148,6 +16347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -15239,6 +16443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15329,6 +16538,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbusto_upd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5446099759994115303, guid: 2ae0bccfe505c78479c4f6fca724e704,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15407,6 +16626,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -15528,6 +16757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15611,6 +16845,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -15696,6 +16940,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15779,6 +17033,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -15876,6 +17140,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Caixa_1_upd
       objectReference: {fileID: 0}
+    - target: {fileID: 1334330486577169180, guid: fd817a2754937534caa9a3182d79ae4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334330486577169180, guid: fd817a2754937534caa9a3182d79ae4e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2656885576547889423, guid: fd817a2754937534caa9a3182d79ae4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15965,6 +17239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -16056,6 +17335,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16139,6 +17428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -16235,6 +17529,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -16338,7 +17642,7 @@ Transform:
   m_Children:
   - {fileID: 2092319946}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1537524616
 MonoBehaviour:
@@ -16364,6 +17668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -16448,6 +17757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -16551,6 +17865,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16634,6 +17958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -16730,6 +18059,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -16833,6 +18167,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16916,6 +18260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -17019,6 +18368,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17102,6 +18461,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -17187,6 +18556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17270,6 +18644,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -17360,6 +18744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17443,6 +18832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -17528,6 +18922,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17612,6 +19016,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17695,6 +19104,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -17810,6 +19229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17900,6 +19324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17983,6 +19412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -18104,6 +19538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18193,6 +19632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -18284,6 +19728,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18367,6 +19821,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -18464,6 +19928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18547,6 +20016,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -18637,6 +20116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -18812,7 +20296,7 @@ Transform:
   m_LocalScale: {x: 6.7098837, y: 1.9577, z: 1.5384}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1801897779 stripped
 Transform:
@@ -18909,7 +20393,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 114.358, y: -219.434, z: -186.292}
 --- !u!4 &1816607717 stripped
 Transform:
@@ -18934,6 +20418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
@@ -19129,6 +20618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19213,6 +20707,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19296,6 +20795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -19387,6 +20891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19471,6 +20980,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbusto_upd (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065525290362267380, guid: 2ae0bccfe505c78479c4f6fca724e704,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5446099759994115303, guid: 2ae0bccfe505c78479c4f6fca724e704,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19549,6 +21068,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -19633,6 +21162,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Parede_meio_upd (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
@@ -19723,6 +21262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -19826,6 +21370,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Caixa_2_upd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132226352289085998, guid: 28c8245e71cc9ee458324ed4087d41a1,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5080096797218834493, guid: 28c8245e71cc9ee458324ed4087d41a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19909,6 +21463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -20006,6 +21565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20095,6 +21659,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cimento_meio_upd (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
@@ -20192,6 +21766,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parede_meio_upd (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346183865716323643, guid: 338a89d4ab111b842bb874b080bc51c7,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8965026654718314280, guid: 338a89d4ab111b842bb874b080bc51c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20275,6 +21859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -20360,6 +21949,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cimento_meio_upd (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559386126411798350, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4652875433261950301, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20432,158 +22031,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29f1fd38ef8632b4b8ab8c4efca3f59a, type: 3}
---- !u!1 &1981301587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1981301593}
-  - component: {fileID: 1981301592}
-  - component: {fileID: 1981301591}
-  - component: {fileID: 1981301590}
-  - component: {fileID: 1981301589}
-  - component: {fileID: 1981301588}
-  - component: {fileID: 1981301594}
-  m_Layer: 9
-  m_Name: Cow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1981301588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f411d7bd967d2c54d9355939ec2273da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  agent: {fileID: 1981301594}
---- !u!114 &1981301589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7758aa0a60e8a024e934f27018cb0d69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorSettings: {fileID: 11400000, guid: 7a50e9006988a964590a227742fac022, type: 2}
-  grasslayerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  roomlayerMask:
-    serializedVersion: 2
-    m_Bits: 1024
-  followController: {fileID: 1981301588}
-  currentGrass: {fileID: 0}
---- !u!65 &1981301590
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1981301591
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c303a387d9e728b448e8d9df35667633, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1981301592
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1981301593
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.216176, y: 0.5, z: -2.512697}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &1981301594
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981301587}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 3
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0.5
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1981907617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20595,6 +22042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
@@ -20758,7 +22210,7 @@ Transform:
   m_LocalScale: {x: 6.7098837, y: 1.9577, z: 1.5384}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1983219192
 PrefabInstance:
@@ -20771,6 +22223,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -20893,7 +22350,7 @@ Transform:
   m_Children:
   - {fileID: 2093470328}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &2000709097
 PrefabInstance:
@@ -20906,6 +22363,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -20991,6 +22453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21075,6 +22542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21158,6 +22630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -21248,6 +22725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -21357,6 +22839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_1_upd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4006906411671257156, guid: 675efc5e735c8cc4ab714fcbc23148ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 126168950906057303, guid: 675efc5e735c8cc4ab714fcbc23148ce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21446,6 +22933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_4_upd (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202147374040151706, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1885611635453330569, guid: 46ffd44f6b87ce14eb126e9ce8c23405,
         type: 3}
@@ -21624,6 +23116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
@@ -21827,6 +23324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_3_upd (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3934884547565796686, guid: 275d6e2ac2cc44f4498acd9511a331d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 54286724574203741, guid: 275d6e2ac2cc44f4498acd9511a331d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21923,6 +23425,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Madeira_Solta_upd
       objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857491755862307865, guid: ec3a06632f08271468c5d46674b38e78,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 275785590429795850, guid: ec3a06632f08271468c5d46674b38e78,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22007,6 +23519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grama_Modulo_2_upd (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4884308173647223201, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8472350341140147122, guid: a3bde88c72c5ff24ca3a6d3561bc3066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22090,6 +23607,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Concreto_Solto_upd
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260023787123205795, guid: 2c649bba3a772e441975a95f749fc2c0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260023787123205795, guid: 2c649bba3a772e441975a95f749fc2c0,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821462481276474544, guid: 2c649bba3a772e441975a95f749fc2c0,
         type: 3}
@@ -22206,7 +23733,7 @@ Transform:
   m_Children:
   - {fileID: 647801946}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2142805010 stripped
 Transform:
@@ -22214,3 +23741,77 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1108796806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1509264261576550115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1509264259596297648, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_Name
+      value: Cow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.216176
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.512697
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297658, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509264259596297655, guid: 6ca5d551080c44c4fa8c197361c4524b,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1398659723}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ca5d551080c44c4fa8c197361c4524b, type: 3}

@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayersController : MonoBehaviour
 {
     [SerializeField]
-    Transform transformPlayer1 = null;
+    Rigidbody rigidbodyPlayer1 = null;
     [SerializeField]
-    Transform transformPlayer2 = null;
+    Rigidbody rigidbodyPlayer2 = null;
+    //[SerializeField]
+    //Transform transformPlayer1 = null;
+    //[SerializeField]
+    //Transform transformPlayer2 = null;
     //[SerializeField]
     //Camera cam = null;
     float speed = 3f;
@@ -22,8 +26,11 @@ public class PlayersController : MonoBehaviour
 
     private void Awake()
     {
-        Interactor player1InteractionComponent = transformPlayer1.GetComponent<Interactor>();
-        Interactor player2InteractionComponent = transformPlayer2.GetComponent<Interactor>();
+        rigidbodyPlayer1.interpolation = RigidbodyInterpolation.Interpolate;
+        rigidbodyPlayer2.interpolation = RigidbodyInterpolation.Interpolate;
+        rigidbodyPlayer2.isKinematic = true;
+        Interactor player1InteractionComponent = rigidbodyPlayer1.GetComponent<Interactor>();
+        Interactor player2InteractionComponent = rigidbodyPlayer2.GetComponent<Interactor>();
         if (!player1InteractionComponent.enabled)
         {
             player1InteractionComponent.enabled = true;
@@ -39,7 +46,7 @@ public class PlayersController : MonoBehaviour
     {
         if (!swap)
         {
-            MovePlayer();
+            //MovePlayer();
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 SwapPlayers();
@@ -60,19 +67,47 @@ public class PlayersController : MonoBehaviour
 
     }
 
+    private void FixedUpdate()
+    {
+        if (!swap)
+        {
+            MovePlayer();
+        }
+    }
+
     void MovePlayer()
     {
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         if(move != Vector3.zero)
         {
-            transformPlayer1.forward = move;
+            rigidbodyPlayer1.transform.forward = move;
+
             animator.SetBool(WalkHash, true);
-            transformPlayer1.position += move * speed * Time.deltaTime;
-            if(followPlayerCoroutine != null)
+
+            Vector3 newPosition = rigidbodyPlayer1.position + move * speed * Time.fixedDeltaTime;
+
+            Vector3 newPositionOffset = newPosition;
+            newPositionOffset.y += 0.5f;
+
+            Vector3 playerPositionOffset = rigidbodyPlayer1.position;
+            playerPositionOffset.y += 0.5f;
+
+            Vector3 direction = Vector3.Normalize(newPositionOffset - playerPositionOffset);
+
+#if UNITY_EDITOR
+            Debug.DrawRay(playerPositionOffset, direction, Color.red);
+#endif
+            RaycastHit hit;
+
+            if (!Physics.Raycast(playerPositionOffset, direction, out hit, 0.5f))
             {
-                StopCoroutine(followPlayerCoroutine);
+                rigidbodyPlayer1.MovePosition(newPosition);
             }
-            followPlayerCoroutine = StartCoroutine(FollowPlayerCoroutine());
+
+            if (followPlayerCoroutine == null)
+            {
+                followPlayerCoroutine = StartCoroutine(FollowPlayerCoroutine());
+            }
         }
         else
         {
@@ -82,22 +117,26 @@ public class PlayersController : MonoBehaviour
 
     IEnumerator FollowPlayerCoroutine()
     {
-        WaitForEndOfFrame wait = new WaitForEndOfFrame();
+        WaitForFixedUpdate wait = new WaitForFixedUpdate();
         AnimationCurve curve = AnimationCurve.EaseInOut(0, 0, 1, 1);
         float timer = 0f;
         float duration = 0.2f;
-        Vector3 startPos = transformPlayer2.position;
-        Vector3 player1Pos = transformPlayer1.position;
-        player1Pos.y = transformPlayer2.position.y;
+        Vector3 startPos = rigidbodyPlayer2.position;
+        Vector3 player1Pos = rigidbodyPlayer1.position;
+        player1Pos.y = rigidbodyPlayer2.position.y;
         Vector3 direction = Vector3.Normalize(player1Pos - startPos);
         Vector3 endPos = player1Pos - direction * 1.5f;
         Vector3 delta = endPos - startPos;
-        transformPlayer2.LookAt(player1Pos);
+
+        Quaternion startRot = rigidbodyPlayer2.rotation;
+        Quaternion endRot = Quaternion.LookRotation(direction);
 
         do
         {
-            timer += Time.deltaTime / duration;
-            transformPlayer2.position = startPos + delta * curve.Evaluate(timer);
+            timer += Time.fixedDeltaTime / duration;
+            rigidbodyPlayer2.MovePosition(startPos + delta * curve.Evaluate(timer));
+            rigidbodyPlayer2.MoveRotation(Quaternion.Slerp(startRot, endRot, curve.Evaluate(timer)));
+
             yield return wait;
         }
         while (timer < 1f);
@@ -111,15 +150,13 @@ public class PlayersController : MonoBehaviour
         if (followPlayerCoroutine != null)
         {
             StopCoroutine(followPlayerCoroutine);
+            followPlayerCoroutine = null;
         }
-        transformPlayer2.localRotation = new Quaternion(0, 0, 0, transformPlayer1.rotation.w);
-        //await SwapCamera();
-        transformPlayer1.GetComponent<Interactor>().enabled = false;
-        Transform p = transformPlayer1;
-        transformPlayer1 = transformPlayer2;
-        transformPlayer2 = p;
-        transformPlayer1.GetComponent<Interactor>().enabled = true;
-        //cam.transform.SetParent(transformPlayer1);
+        rigidbodyPlayer1.GetComponent<Interactor>().enabled = false;
+        Rigidbody p = rigidbodyPlayer1;
+        rigidbodyPlayer1 = rigidbodyPlayer2;
+        rigidbodyPlayer2 = p;
+        rigidbodyPlayer1.GetComponent<Interactor>().enabled = true;
         swap = false;
     }
 

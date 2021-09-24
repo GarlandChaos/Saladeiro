@@ -45,9 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549cb10266caa464bb82e0efead4428a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transformPlayer1: {fileID: 6167902293549889091}
-  transformPlayer2: {fileID: 177092540457383955}
-  cam: {fileID: 0}
+  rigidbodyPlayer1: {fileID: 1409104211279879802}
+  rigidbodyPlayer2: {fileID: 177092540457383959}
   eventOpenInventory: {fileID: 11400000, guid: bbbe9a3eb95e44a488e8bfac80463230, type: 2}
   eventCloseInventory: {fileID: 11400000, guid: 8a8c97bcda08e1742828719a2e56483d,
     type: 2}
@@ -133,6 +132,12 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 4739645022814249175}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1409104211279879802 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5929198749297589933, guid: cc6612eb7decddc40886cf8a6b7eda6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 4739645022814249175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7048088332465234724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,6 +210,12 @@ PrefabInstance:
 --- !u!4 &177092540457383955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7186335726999378743, guid: 48b4e946ff72b304499cef6220e41257,
+    type: 3}
+  m_PrefabInstance: {fileID: 7048088332465234724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &177092540457383959 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 7186335726999378739, guid: 48b4e946ff72b304499cef6220e41257,
     type: 3}
   m_PrefabInstance: {fileID: 7048088332465234724}
   m_PrefabAsset: {fileID: 0}

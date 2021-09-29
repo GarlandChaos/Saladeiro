@@ -40,7 +40,9 @@ public class CattleMinigameManager : MonoBehaviour
 
     public void UnregisterCow(CowController cow)
     {
-        SpawnObject(cow.transform.position);
+        Vector3 positionToSpawn = cow.transform.position;
+        positionToSpawn.y += 0.5f;
+        SpawnObject(positionToSpawn);
         cowList.Remove(cow);
         if(cowList.Count == 0)
         {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class FollowController : MonoBehaviour
 {
@@ -14,15 +15,26 @@ public class FollowController : MonoBehaviour
             canFollow = value;
             if (canFollow)
             {
+                //agent.enabled = true;
                 agent.isStopped = false;
+                agent.updatePosition = true;
+                agent.updateRotation = true;
             }
             else
             {
                 agent.isStopped = true;
+                agent.updatePosition = false;
+                agent.updateRotation = false;
+                //agent.enabled = false;
             }
         } }
     [SerializeField]
     NavMeshAgent agent = null;
+    bool waitingToFollow = false;
+    [SerializeField]
+    UnityEvent waitToFollowEvent = null;
+    [SerializeField]
+    UnityEvent resumeFollowEvent = null;
 
     private void Awake()
     {
@@ -40,6 +52,20 @@ public class FollowController : MonoBehaviour
             if (agent.destination != target.position)
             {
                 agent.destination = target.position;
+
+                if (agent.velocity == Vector3.zero)
+                {
+                    if (!waitingToFollow)
+                    {
+                        waitToFollowEvent.Invoke();
+                        waitingToFollow = true;
+                    }
+                }
+                else if(waitingToFollow)
+                {
+                    resumeFollowEvent.Invoke();
+                    waitingToFollow = false;
+                }
             }
         }
               

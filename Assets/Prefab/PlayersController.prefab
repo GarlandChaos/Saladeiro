@@ -51,6 +51,9 @@ MonoBehaviour:
   eventCloseInventory: {fileID: 11400000, guid: 8a8c97bcda08e1742828719a2e56483d,
     type: 2}
   animator: {fileID: 4256686375674256185}
+  layerToIgnore:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1001 &4739645022814249175
 PrefabInstance:
   m_ObjectHideFlags: 0

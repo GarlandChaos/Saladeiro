@@ -15,15 +15,26 @@ public class Interactor : MonoBehaviour
     {
         Vector3 rayPos = transform.position + new Vector3(0f, yOffset, 0f);
         RaycastHit hit;
+#if UNITY_EDITOR
         Debug.DrawRay(rayPos, transform.forward, Color.white);
+#endif
         if (Physics.Raycast(rayPos, transform.forward, out hit, 1.5f, interactionLayerMask))
         {
             if (!canInteract)
             {
                 canInteract = true;
                 GameObject go = hit.collider.gameObject;
-                interactable = go.GetComponent<IInteractable>();
-                UIManager.instance._InteractionIndicator.transform.position = go.transform.position + new Vector3(0, 1f, 0f);
+                interactable = go.GetComponentInParent<IInteractable>();
+                float ySize = 0f;
+                if (go.GetComponent<MeshRenderer>())
+                {
+                    ySize = go.GetComponent<MeshRenderer>().bounds.size.y;
+                }
+                else if (go.GetComponent<SkinnedMeshRenderer>())
+                {
+                    ySize = go.GetComponent<SkinnedMeshRenderer>().bounds.size.y;
+                }
+                UIManager.instance._InteractionIndicator.transform.position = go.transform.position + new Vector3(0, ySize, 0f);
                 UIManager.instance._InteractionIndicator.SetActive(true);
             }
 

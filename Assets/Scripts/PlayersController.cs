@@ -22,6 +22,8 @@ public class PlayersController : MonoBehaviour
     Animator animator = null;
     int WalkHash = Animator.StringToHash("Walk");
     int WaveHash = Animator.StringToHash("Wave");
+    [SerializeField]
+    LayerMask layerToIgnore;
     Coroutine followPlayerCoroutine = null;
 
     private void Awake()
@@ -98,8 +100,7 @@ public class PlayersController : MonoBehaviour
             Debug.DrawRay(playerPositionOffset, direction, Color.red);
 #endif
             RaycastHit hit;
-
-            if (!Physics.Raycast(playerPositionOffset, direction, out hit, 0.5f))
+            if (!Physics.Raycast(playerPositionOffset, direction, out hit, 0.5f, ~layerToIgnore))
             {
                 rigidbodyPlayer1.MovePosition(newPosition);
             }
